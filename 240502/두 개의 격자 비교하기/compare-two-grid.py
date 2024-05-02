@@ -15,7 +15,7 @@ arr3 = [
     for i in range(n)
 ]
 
-for i in range(n):
-    for j in range(n):
-        print(arr3[i][j], end=" ")
+for row in arr3:
+    for elem in row:
+        print(elem, end=" ")
     print()
