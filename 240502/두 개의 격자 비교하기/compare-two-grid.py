@@ -1,8 +1,5 @@
 n, m = map(int, input().split())
 
-arr1 = []
-arr2 = []
-
 arr1 = [
     list(map(int, input().split()))
     for _ in range(n)
